@@ -1,1 +1,1 @@
-# praica-js
+# pratica-js
