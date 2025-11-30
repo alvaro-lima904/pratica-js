@@ -1,0 +1,74 @@
+:root {
+    --cor-azul-cinzento: #36478B;
+    --cor-branca: white;
+    --cor-azul: #175FFA;
+    --cor-preta: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: var(--cor-azul-cinzento);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: var(--cor-branca);
+    min-width: 100%;
+    padding: 1rem;
+    border-radius: .75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: .25rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin: 0 auto;
+}
+
+.btn button {
+    background-color: var(--cor-azul);
+    color: var(--cor-branca);
+    border-radius: .5rem;
+    border: 0;
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.btn button:hover {
+    background-color: var(--cor-preta);
+    cursor: pointer;
+}
+
+.btn button:disabled {
+    background-color: gray;
+    cursor: auto;
+}
+
+.btn button a {
+    color: inherit;
+    text-decoration: none;
+}
