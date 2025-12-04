@@ -22,7 +22,8 @@ body, html {
 
 section {
     background-color: var(--cor-branca);
-    min-width: 100%;
+    min-width: 60%;
+    height: 40%;
     padding: 1rem;
     border-radius: .75rem;
     display: flex;
@@ -71,4 +72,19 @@ p {
 .btn button a {
     color: inherit;
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: .875rem;
+  }
 }
